@@ -92,7 +92,7 @@
     - `;ringers add <unique-id/alias> <team-name>` to add a temporary ringer to a team
     - `;ringers reset <team-name>` removes temporary ringers from team
         - both `;ringers add/reset` require any kind of Captain permission or higher (refer to global-checks below)
-   
+   h
 - Added `;anyoneplaying` command
     - Iterates through all servers and sends Image with current players, map and map alias per server
     - This added `Pillow` package dependency 
