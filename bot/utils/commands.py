@@ -7,7 +7,7 @@ from bot.utils.pavlov import check_perm_admin, check_perm_captain, check_perm_mo
 PERMISSIONS = {
     "any": None,
     "all": None,
-    "captain": check_perm_captain,
+    "captain": check_perm_moderator,
     "mod": check_perm_moderator,
     "moderator": check_perm_moderator,
     "admin": check_perm_admin,
